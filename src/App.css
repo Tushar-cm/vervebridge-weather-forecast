@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #5f9ad1, #a3d5e5, #f3e9d2); /* Gradient background with multiple colors */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 80%; 
+  padding: 12px 20px; 
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 16px; 
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 85%; 
+  padding: 14px 20px; 
+  margin: 8px 0;
+  background-color: #216f9c; 
+  color: white;
+  font-size: 16px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.weather-container {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue; 
+}
+
+.description {
+  text-transform: capitalize;
+  color: black; 
+}
+
+.weather-clear {
+  background-image: url('https://media.istockphoto.com/id/1328689113/photo/summer-blue-sky-and-white-cloud-white-background-beautiful-clear-cloudy-in-sunlight-calm.jpg?s=612x612&w=0&k=20&c=37qEuwdxyQSx9kuS-_Gz0WiKFX6jMXZN9aRY47mN2vI=');
+}
+
+.weather-clouds {
+  background-image: url('https://t3.ftcdn.net/jpg/03/02/03/70/360_F_302037028_WgdzBqp7MCTF0iITajUUVryCKJsyjOE6.jpg');
+}
+
+.weather-rain {
+  background-image: url('https://st3.depositphotos.com/1400069/35282/i/450/depositphotos_352828632-stock-photo-spring-rain-forest-fresh-branches.jpg');
+}
+
+.weather-mist {
+  background-image: url('https://img.freepik.com/free-photo/empty-road-dark-atmosphere_23-2150914154.jpg'); /* Replace with actual image URL for mist */
+}
+
+.weather-haze {
+  background-image: url('https://img.freepik.com/free-photo/empty-road-dark-atmosphere_23-2150914462.jpg'); /* Replace with actual image URL for haze */
+}
