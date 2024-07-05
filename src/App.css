@@ -1,88 +1,102 @@
+/* Set the font family for the body and apply a gradient background */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #5f9ad1, #a3d5e5, #f3e9d2); /* Gradient background with multiple colors */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
+/* Center the app content and add padding */
 .app {
   text-align: center;
   padding: 20px;
 }
 
+/* Style for the input field */
 input[type="text"] {
-  width: 80%; 
-  padding: 12px 20px; 
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-size: 16px; 
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  width: 80%; /* Full width with some padding */
+  padding: 12px 20px; /* Padding inside the input */
+  margin: 8px 0; /* Margin outside the input */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  font-size: 16px; /* Font size */
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
 }
 
+/* Style for the button */
 button {
-  width: 85%; 
-  padding: 14px 20px; 
-  margin: 8px 0;
-  background-color: #216f9c; 
-  color: white;
-  font-size: 16px; 
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  width: 85%; /* Full width with some padding */
+  padding: 14px 20px; /* Padding inside the button */
+  margin: 8px 0; /* Margin outside the button */
+  background-color: #216f9c; /* Background color */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Change button background color on hover */
 button:hover {
   background-color: #45a049;
 }
 
+/* Style for the weather container */
 .weather-container {
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  width: 300px; /* Fixed width */
+  text-align: center; /* Center the text */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 20px; /* Margin at the top */
 }
 
+/* Style for the weather icon */
 .weather-icon {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin-bottom: 10px; /* Margin below the icon */
 }
 
+/* Style for the temperature text */
 .temperature {
-  font-size: 24px;
-  font-weight: bold;
-  color: darkblue; 
+  font-size: 24px; /* Larger font size */
+  font-weight: bold; /* Bold font */
+  color: darkblue; /* Dark blue color */
 }
 
+/* Style for the weather description text */
 .description {
-  text-transform: capitalize;
-  color: black; 
+  text-transform: capitalize; /* Capitalize the first letter of each word */
+  color: black; /* Black color */
 }
 
+/* Specific background image for clear weather */
 .weather-clear {
   background-image: url('https://media.istockphoto.com/id/1328689113/photo/summer-blue-sky-and-white-cloud-white-background-beautiful-clear-cloudy-in-sunlight-calm.jpg?s=612x612&w=0&k=20&c=37qEuwdxyQSx9kuS-_Gz0WiKFX6jMXZN9aRY47mN2vI=');
 }
 
+/* Specific background image for cloudy weather */
 .weather-clouds {
   background-image: url('https://t3.ftcdn.net/jpg/03/02/03/70/360_F_302037028_WgdzBqp7MCTF0iITajUUVryCKJsyjOE6.jpg');
 }
 
+/* Specific background image for rainy weather */
 .weather-rain {
   background-image: url('https://st3.depositphotos.com/1400069/35282/i/450/depositphotos_352828632-stock-photo-spring-rain-forest-fresh-branches.jpg');
 }
 
+/* Specific background image for misty weather */
 .weather-mist {
   background-image: url('https://img.freepik.com/free-photo/empty-road-dark-atmosphere_23-2150914154.jpg'); /* Replace with actual image URL for mist */
 }
 
+/* Specific background image for hazy weather */
 .weather-haze {
   background-image: url('https://img.freepik.com/free-photo/empty-road-dark-atmosphere_23-2150914462.jpg'); /* Replace with actual image URL for haze */
 }

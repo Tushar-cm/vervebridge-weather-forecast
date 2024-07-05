@@ -34,7 +34,7 @@ function App() {
 
     const { main, weather } = weatherData;
 
-    // Determine the weather condition to set appropriate background class
+    
     let weatherConditionClass = '';
     if (weather[0].main.toLowerCase() === 'mist') {
       weatherConditionClass = 'weather-mist';
